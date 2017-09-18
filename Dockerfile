@@ -30,4 +30,4 @@ RUN  mkdir -p /opt/selenium \
   && wget --no-verbose https://selenium-release.storage.googleapis.com/3.0-beta4/selenium-server-standalone-3.0.0-beta4.jar -O /opt/selenium/selenium-server-standalone.jar
 
 WORKDIR /opt/selenium
-RUN chgrp -R 0 /opt/selenium-node && chmod -R g+rwX /opt/selenium-node
+RUN chgrp -R 0 /opt/selenium && chmod -R g+rwX /opt/selenium
