@@ -1,1 +1,1 @@
-# selenium-base
+# Selenium Base Image
